@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create your ConnectPro Account</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/ConnectPro logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bankac-page">
+      <!-- ConnectPro logo -->
+      <a href="#" class="logo">
+        <img
+          src="./images/No bg logo ConnectPro.png"
+          alt="ConnectPro logo"
+          id="logoblue"
+        />
+      </a>
+
+      <!-- A/c details form code -->
+      <div class="bankac-container-align">
+        <div class="bankac-container">
+          <!-- image in form -->
+          <div class="image-container">
+            <img src="./images/building.jpg" alt="Building image" />
+          </div>
+
+          <div class="form-container">
+            <div class="ac-detail">
+              <h1>Add Account Details</h1>
+            </div>
+
+            <!-- form fields -->
+            <div class="form-fields">
+              <div id="div-name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+              </div>
+
+              <div id="div-ac-number">
+                <label for="ac-number">Account Number</label>
+                <input
+                  type="text"
+                  id="ac-number"
+                  name="ac-number"
+                  inputmode="numeric"
+                />
+              </div>
+
+              <div id="div-ifsc-code">
+                <label for="ifsc">IFSC Code</label>
+                <input type="text" id="ifsc-code" name="ifsc-code" />
+              </div>
+
+              <div id="div-branch-name">
+                <label for="branch-name">Branch</label>
+                <input type="text" id="branch-name" name="branch-name" />
+              </div>
+
+              <div id="div-bank-name">
+                <label for="bank-name">Bank</label>
+                <input type="text" id="bank-name" name="bank-name" />
+              </div>
+            </div>
+
+            <button class="save-button">Save</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer code -->
+      <div class="foot-align">
+        <footer class="footer">
+          <div class="copy-container">
+            <p>
+              <img
+                src="./images/No bg Black logo ConnectPro.png"
+                alt="ConnectPro logo"
+                id="logoblack"
+                class="footer-link"
+              />
+            </p>
+            <p id="copyright">&copy; 2024</p>
+          </div>
+          <div><a href="#" class="footer-link">User Agreement</a></div>
+          <div><a href="#" class="footer-link">Privacy Policy</a></div>
+          <div><a href="#" class="footer-link">Community Guidelines</a></div>
+          <div><a href="#" class="footer-link">Cookie Policy</a></div>
+          <div><a href="#" class="footer-link">Copyright Policy</a></div>
+          <div><a href="#" class="footer-link">Send Feedback</a></div>
+          <div class="lang-select">
+            <select name="Language" id="lang">
+              <option value="" disabled selected>Language</option>
+              <option value="English">English</option>
+              <option value="Hindi">हिन्दी</option>
+              <option value="Japanese">日本語</option>
+              <option value="Chinese">中国人</option>
+              <option value="Portuguese">Português</option>
+            </select>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
