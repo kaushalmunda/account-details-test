@@ -82,6 +82,14 @@ input {
   outline: none;
 }
 
+.div-name #name {
+  text-transform: capitalize;
+}
+
+.div-ifsc-code #ifsc-code {
+  text-transform: uppercase;
+}
+
 /* Save button */
 .save-button {
   width: 100%;
